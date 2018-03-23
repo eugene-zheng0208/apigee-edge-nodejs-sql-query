@@ -1,0 +1,22 @@
+<TargetEndpoint name='nodejs'>
+  <FaultRules>
+    <FaultRule name='other-fault'>
+      <!-- This FaultRule always catches all uncaught faults. -->
+      <Step>
+        <Name>JS-MaybeFormatFault</Name>
+      </Step>
+    </FaultRule>
+  </FaultRules>
+
+  <Flows/>
+  <PreFlow name='PreFlow'>
+    <Request/>
+    <Response/>
+  </PreFlow>
+
+  <ScriptTarget>
+      <ResourceURL>node://mssql-bridge.js</ResourceURL>
+      <Properties/>
+  </ScriptTarget>
+
+</TargetEndpoint>

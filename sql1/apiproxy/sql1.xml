@@ -1,0 +1,12 @@
+<APIProxy revision='1' name='sql1'>
+  <ConfigurationVersion minorVersion='0' majorVersion='4'/>
+  <CreatedAt>1466648149273</CreatedAt>
+  <CreatedBy>dino</CreatedBy>
+  <Description></Description>
+  <DisplayName>sql1</DisplayName>
+  <LastModifiedAt>1466653280418</LastModifiedAt>
+  <LastModifiedBy>orgAdmin</LastModifiedBy>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>

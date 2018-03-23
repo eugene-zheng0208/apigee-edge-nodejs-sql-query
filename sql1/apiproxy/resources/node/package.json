@@ -1,0 +1,18 @@
+{
+  "name": "server-1",
+  "version": "1.0.0",
+  "description": "A bridge from Apigee Edge into an MS SQL Server, using mssql",
+  "main": "mssql-bridge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dino Chiesa <dchiesa@apigee.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "apigee-access": "^1.3.0",
+    "async": "^1.5.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "seriate": "^0.7.1"
+  }
+}
